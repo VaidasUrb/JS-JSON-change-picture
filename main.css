@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 800px;
+    border: 4mm ridge rgba(170, 50, 220, 0.6);
+}
+
+body > div {
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    color: magenta;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+button {
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
